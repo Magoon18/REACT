@@ -29,9 +29,9 @@ export default function About() {
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
-            className="object-cover object-center rounded"
+            className="inline object-cover w-64 h-64 rounded-full ring-2 ring-green-500"
             alt="hero"
-            src="./coding.svg"
+            src="./Headshot.jpg"
           />
         </div>
       </div>

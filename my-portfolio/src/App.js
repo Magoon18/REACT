@@ -4,6 +4,7 @@ import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import Socials from "./components/Socials";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <About />
       <Projects />
       <Skills />
+      <Socials />
       <Contact />
     </main>
   );
