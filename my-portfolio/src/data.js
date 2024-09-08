@@ -1,35 +1,25 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Dumping Mechanism",
+    subtitle: "Robotics",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      "A dumping mechanism designed with kinematics to dump an entire bucket with an 100 mm sevo",
+    image: "./IsoView.png",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "Jet Flow Simulation",
+    subtitle: "OpenFOAM/Paraview",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
-  },
-  {
-    title: "DevChat",
-    subtitle: "React and Firebase",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
-  },
-  {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+      "Research to model the various gradients of hydrogen and oxygen jet flow combustion",
+    image: "./JetFlow",
+    {
+      title: "Portfolio",
+      subtitle: "React",
+      description:
+        "My personal portfolio. Includes a personal statement, various projects I've done, contact details, and skills/technologies I've learned.",
+      image: "./portfoliocode.gif",
+      link: "https://github.com/Maggon18/REACT",
+    },
   },
 ];
 
@@ -53,8 +43,12 @@ export const testimonials = [
 export const skills = [
   "JavaScript",
   "React",
-  "Next.js",
-  "Node",
-  "GraphQL",
-  "Material UI",
+  "MatLab",
+  "SolidWorks",
+  "Siemens NX",
+  "OpenFOAM/Paraview",
+  "Labview",
+  "Python",
+  "C/C++",
+  "Ubuntu",
 ];
