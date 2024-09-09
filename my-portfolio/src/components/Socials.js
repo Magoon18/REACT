@@ -37,14 +37,14 @@ export default function Socials() {
                 Email:
               </h2>
               <br></br>
-              <a className="text-indigo-400 leading-relaxed">
+              <a className="text-indigo-400 leading-relaxed ml-1">
               Denverdavis1209@gmail.com
               </a>
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
+              <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 Phone:
               </h2>
               <br></br>
-              <p className="leading-relaxed">(909)552-4299</p>
+              <p className="leading-relaxed ml-1">(909)552-4299</p>
           </div>
         </div>
         {/* <div className="flex flex-wrap m-4">
