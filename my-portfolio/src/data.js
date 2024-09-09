@@ -4,14 +4,14 @@ export const projects = [
     subtitle: "Robotics",
     description:
       "A dumping mechanism designed with kinematics to dump an entire bucket with an 100 mm sevo",
-    image: "./92uw19.gif",
+    image: "./Minibot.gif",
   },
   {
     title: "Jet Flow Simulation",
     subtitle: "OpenFOAM/Paraview",
     description:
       "Research to model the various gradients of hydrogen and oxygen jet flow combustion",
-    image: "./Paraview.gif",
+    image: "./Research.gif",
   },
   {
     title: "Portfolio",
