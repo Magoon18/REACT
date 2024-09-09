@@ -11,7 +11,7 @@ export const projects = [
     subtitle: "OpenFOAM/Paraview",
     description:
       "Research to model the various gradients of hydrogen and oxygen jet flow combustion",
-    image: "./OpenFOAM.png",
+    image: "./Paraview.gif",
   },
   {
     title: "Portfolio",
