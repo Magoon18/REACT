@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "Robotics",
     description:
       "A dumping mechanism designed with kinematics to dump an entire bucket with an 100 mm sevo",
-    image: "./IsoView.png",
+    image: "./92uw19.gif",
   },
   {
     title: "Jet Flow Simulation",
