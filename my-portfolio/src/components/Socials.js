@@ -33,13 +33,13 @@ export default function Socials() {
             <a href="https://github.com/Magoon18" target="_blank" className="ml-2 mr-2 hover:text-white">
               @Magoon
             </a>
-              <h1 className="title-font font-semibold text-white tracking-widest text-xs">
+              <h1 className="title-font font-semibold text-white tracking-widest text-xl">
                 Email:
               </h1>
               <a className="text-indigo-400 leading-relaxed ml-1">
               Denverdavis1209@gmail.com
               </a>
-              <h1 className="title-font font-semibold text-white tracking-widest text-xs ml-1">
+              <h1 className="title-font font-semibold text-white tracking-widest text-xl ml-1">
                 Phone:
               </h1>
               <p className="leading-relaxed ml-1">(909)552-4299</p>
