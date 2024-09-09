@@ -5,7 +5,7 @@ export default function Socials() {
   return (
     <section id="socials">
       <div className="container px-5 py-10 mx-auto text-center">
-        <UsersIcon className="w-10 inline-block mb-4" />
+        {/*<UsersIcon className="w-10 inline-block mb-4" />*/}
         <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-8">
           Socials 
         </h1>
@@ -33,15 +33,15 @@ export default function Socials() {
             <a href="https://github.com/Magoon18" target="_blank" className="ml-2 mr-2 hover:text-white">
               @Magoon
             </a>
-              <h1 className="title-font font-semibold text-white tracking-widest text-xl">
+              <h2 className="title-font font-semibold text-white tracking-widest text-xl">
                 Email:
-              </h1>
+              </h2>
               <a className="text-indigo-400 leading-relaxed ml-1">
               Denverdavis1209@gmail.com
               </a>
-              <h1 className="title-font font-semibold text-white tracking-widest text-xl ml-1">
+              <h2 className="title-font font-semibold text-white tracking-widest text-xl ml-1">
                 Phone:
-              </h1>
+              </h2>
               <p className="leading-relaxed ml-1">(909)552-4299</p>
           </div>
         </div>
