@@ -34,14 +34,16 @@ export default function Socials() {
               @Magoon
             </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                EMAIL:
+                Email:
               </h2>
+              <br></br>
               <a className="text-indigo-400 leading-relaxed">
               Denverdavis1209@gmail.com
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
-                PHONE:
+                Phone:
               </h2>
+              <br></br>
               <p className="leading-relaxed">(909)552-4299</p>
           </div>
         </div>
