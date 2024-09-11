@@ -25,10 +25,6 @@ export const projects = [
 
 export const luna = [
   {
-    title: "Dumping Mechanism",
-    subtitle: "Robotics",
-    description:
-      "A dumping mechanism designed with kinematics to dump an entire bucket with an 100 mm sevo",
     image: "./Lunabotics.gif",
   },
   {
@@ -36,7 +32,7 @@ export const luna = [
     subtitle: "OpenFOAM/Paraview",
     description:
       "Research to model the various gradients of hydrogen and oxygen jet flow combustion",
-    image: "./Research.gif",
+    image: "./Minibot.mov",
   },
   {
     title: "Portfolio",
