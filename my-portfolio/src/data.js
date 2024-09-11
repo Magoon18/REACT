@@ -32,7 +32,7 @@ export const luna = [
     subtitle: "OpenFOAM/Paraview",
     description:
       "Research to model the various gradients of hydrogen and oxygen jet flow combustion",
-    image: "./Minibot.mov",
+    video: "./Minibot.mov",
   },
   {
     title: "Portfolio",
