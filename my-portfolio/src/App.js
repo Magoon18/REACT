@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Socials from "./components/Socials";
+import Lunabotics from "./components/Lunabotics";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <Socials />
       <Skills />
       <Projects />
+      <Lunabotics />
     </main>
   );
 }

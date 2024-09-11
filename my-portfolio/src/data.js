@@ -23,6 +23,30 @@ export const projects = [
   },
 ];
 
+export const luna = [
+  {
+    title: "Dumping Mechanism",
+    subtitle: "Robotics",
+    description:
+      "A dumping mechanism designed with kinematics to dump an entire bucket with an 100 mm sevo",
+    image: "./Lunabotics.gif",
+  },
+  {
+    title: "Jet Flow Simulation",
+    subtitle: "OpenFOAM/Paraview",
+    description:
+      "Research to model the various gradients of hydrogen and oxygen jet flow combustion",
+    image: "./Research.gif",
+  },
+  {
+    title: "Portfolio",
+    subtitle: "React",
+    description:
+      "My personal portfolio. Includes a personal statement, various projects I've done, contact details, and skills/technologies I've learned.",
+    image: "./portfoliocode.gif",
+    link: "https://github.com/Maggon18/REACT",
+  },
+];
 export const testimonials = [
   {
     quote:
