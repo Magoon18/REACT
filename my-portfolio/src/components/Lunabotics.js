@@ -17,14 +17,13 @@ export default function Lunabotics() {
         <div className="flex flex-wrap -m-4">
           {luna.map((project) => (
             <a
-              href={project.link}
-              key={project.image}
+              key={project}
               className="sm:w-1/2 w-100 p-4">
               <div className="flex relative">
                 <img
                   alt="gallery"
                   className="absolute inset-0 size-fit object-cover object-center"
-                  src={project.image}
+                  src={project}
                 />
                 {/*<video
                   width = "750" height = "500" controls>
@@ -41,24 +40,6 @@ export default function Lunabotics() {
                 </div>*/}
               </div>
             </a>
-          ))}
-          {luna.map((project) => (
-            <a
-              href={project.link}
-              key={project.video}
-              className="sm:w-1/2 w-100 p-4">
-              <div className="flex relative">
-                {/*<img
-                  alt="gallery"
-                  className="absolute inset-0 size-fit object-cover object-center"
-                  src={project.image}
-                />*/}
-                <video
-                  width = "750" height = "500" controls>
-                  <source src={project.video} type="video/mp4"/>
-                </video>
-              </div>
-            </a> 
           ))}
         </div>
       </div>
