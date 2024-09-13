@@ -15,8 +15,8 @@ export default function Lunabotics() {
           </p>
         </div>
         <video
-        width = "750" height = "500" controls>
-       <source src={project.video} type="video/mp4"/>
+          width = "750" height = "500" controls>
+          <source src={project.video} type="video/mp4"/>
         </video>
         <div className="flex flex-wrap -m-4">
           {luna.map((project) => (
