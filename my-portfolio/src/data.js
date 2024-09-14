@@ -27,12 +27,6 @@ export const luna = [
   {
     image: "./Lunabotics.gif",
   },
-  {
-    video: "./Minibot.mov",
-  },
-  {
-    image: "./portfoliocode.gif",
-  },
 ];
 export const testimonials = [
   {
