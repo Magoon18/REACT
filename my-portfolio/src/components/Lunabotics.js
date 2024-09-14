@@ -18,7 +18,7 @@ export default function Lunabotics() {
           width = "250" height = "125" controls>
           <source src={"./Minibot.mov"} type="video/mp4"/>
         </video>
-        <div className="flex flex-wrap -m-4">
+        <div className="flex flex-wrap mr-0">
           {luna.map((project) => (
             <a
               key={project.image}
@@ -26,7 +26,7 @@ export default function Lunabotics() {
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 size-fit object-cover object-center"
+                  className="absolute inset-0 size-full object-cover object-center"
                   src={project.image}
                 />
                 {/*<video
