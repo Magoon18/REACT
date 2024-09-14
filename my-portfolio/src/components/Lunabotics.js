@@ -18,6 +18,10 @@ export default function Lunabotics() {
           width = "250" height = "125" controls>
           <source src={"./Minibot.mov"} type="video/mp4"/>
         </video>
+        {/*<video
+          width = "250" height = "125" controls>
+          <source src={"./Minibot.mov"} type="video/mp4"/>
+        </video>*/}
         <div className="flex flex-wrap mr-0">
           {luna.map((project) => (
             <a
