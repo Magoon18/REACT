@@ -15,13 +15,20 @@ export default function Lunabotics() {
           </p>
         </div>
         <video
-          width = "250" height = "250" autoplay>
+          width = "250" height = "250" controls>
           <source src={"./Minibot.mov"} type="video/mp4"/>
         </video>
         {/*<video
           width = "250" height = "250" controls>
           <source src={"./Minibot.mov"} type="video/mp4"/>
         </video>*/}
+        <iframe
+        width = "250"
+        height = "250"
+        src = {"https://youtu.be/1HSG13fAoxk"}
+        frameborder = "0"
+        allowFullScreen
+        />
         <div className="flex flex-wrap mr-0">
           {luna.map((project) => (
             <a
