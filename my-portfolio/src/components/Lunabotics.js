@@ -15,11 +15,11 @@ export default function Lunabotics() {
           </p>
         </div>
         <video
-          width = "250" height = "125" controls>
+          width = "250" height = "250" autoplay>
           <source src={"./Minibot.mov"} type="video/mp4"/>
         </video>
         {/*<video
-          width = "250" height = "125" controls>
+          width = "250" height = "250" controls>
           <source src={"./Minibot.mov"} type="video/mp4"/>
         </video>*/}
         <div className="flex flex-wrap mr-0">
