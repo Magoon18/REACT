@@ -7,7 +7,7 @@ export default function About() {
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Welcome to Denver's page,
-            <br className="hidden lg:inline-block subtitle-font" />Charming Aerospace Engineer
+            <br className="hidden lg:inline-block subtitle-font font-small" />Charming Aerospace Engineer
           </h1>
           <p className="mb-8 leading-relaxed">
             Graduates in May 2025, A broad set of skills with mechanical, manufacturing, electrical, and computer engineering. Experience in robotics and rockets (liquid/solid fuels)

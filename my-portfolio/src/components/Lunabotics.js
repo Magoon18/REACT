@@ -37,7 +37,7 @@ export default function Lunabotics() {
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 size-full object-cover object-center"
+                  className="absolute inset-0 size-max object-cover object-center"
                   src={project.image}
                 />
                 {/*<video
