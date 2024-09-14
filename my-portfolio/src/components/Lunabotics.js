@@ -11,11 +11,11 @@ export default function Lunabotics() {
             NASA Lunabotics 2024 - UCF Florida
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Projects that I have previously worked on.
+            NASA competition with collaboration with University of Central Florida to develop a rover for moon and/or mars missions.
           </p>
         </div>
         <video
-          width = "250" height = "250" controls>
+          width = "500" height = "250" controls>
           <source src={"./Minibot.mov"} type="video/mp4"/>
         </video>
         {/*<video
@@ -23,7 +23,7 @@ export default function Lunabotics() {
           <source src={"./Minibot.mov"} type="video/mp4"/>
         </video>*/}
         <iframe
-        width = "250"
+        width = "500"
         height = "250"
         src = {"https://youtu.be/1HSG13fAoxk"}
         frameborder = "0"

@@ -7,7 +7,7 @@ export default function Socials() {
       <div className="container px-5 py-10 mx-auto text-center">
         {/*<UsersIcon className="w-10 inline-block mb-4" />*/}
         <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-8">
-          Socials 
+          Contact Me 
         </h1>
         <div className="flex flex-wrap items-center justify-center container">
           <div className="bg-gray-800 bg-opacity-40 rounded flex p-4 h-full items-center">
