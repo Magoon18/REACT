@@ -15,7 +15,7 @@ export default function Lunabotics() {
           </p>
         </div>
         <video
-          width = "500" height = "250" controls>
+          width = "300" height = "600" controls>
           <source src={"./Minibot.mov"} type="video/mp4"/>
         </video>
         {/*<video
