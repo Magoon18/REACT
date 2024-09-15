@@ -14,21 +14,19 @@ export default function Lunabotics() {
             NASA competition with collaboration with University of Central Florida to develop a rover for moon and/or mars missions.
           </p>
         </div>
-        <video
-          width = "300" height = "600" controls>
+        <div className = "container flex-row">
+        <video 
+          width = "200" height = "200" controls>
           <source src={"./Minibot.mov"} type="video/mp4"/>
         </video>
-        {/*<video
-          width = "250" height = "250" controls>
-          <source src={"./Minibot.mov"} type="video/mp4"/>
-        </video>*/}
         <iframe
-        width = "500"
-        height = "250"
+        width = "200"
+        height = "200"
         src = {"https://youtu.be/1HSG13fAoxk"}
         frameborder = "0"
         allowFullScreen
         />
+        </div>
         <div className="flex flex-wrap mr-0">
           {luna.map((project) => (
             <a
