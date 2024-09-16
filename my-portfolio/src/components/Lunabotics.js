@@ -17,7 +17,8 @@ export default function Lunabotics() {
         <div className="flex flex-wrap mr-0">
           {luna.map((project) => (
             <a
-              key={project.image}
+              key1={project.image}
+              key2={project.video}
               className="sm:w-1/2 w-100 p-4">
               <div className="flex relative">
                 <img
@@ -25,6 +26,10 @@ export default function Lunabotics() {
                   className="absolute inset-0 size-max object-cover object-center"
                   src={project.image}
                 />
+                <video
+                  width = "750" height = "500" controls>
+                  <source src={project.video} type="video/mp4"/>
+                </video>
                 {/*<video
                   width = "750" height = "500" controls>
                   <source src={project.video} type="video/mp4"/>
