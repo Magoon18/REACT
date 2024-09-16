@@ -26,6 +26,7 @@ export const projects = [
 export const luna = [
   {
     image: "./Lunabotics.gif",
+    video: "./Minibot.mov",
   },
 ];
 export const testimonials = [
