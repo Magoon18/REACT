@@ -14,12 +14,12 @@ export default function Lunabotics() {
             NASA competition with collaboration with University of Central Florida to develop a rover for moon and/or mars missions.
           </p>
         </div>
-        <div className="flex flex-wrap mr-0">
+        <div className="flex flex-wrap mr-4">
           {luna.map((project) => (
             <a
               key1={project.image}
               key2={project.video}
-              className="sm:w-1/4 w-100 p-2">
+              className="sm:w-1/3 w-100 p-2">
               <div className="flex relative">
                 <img
                   alt="gallery"
@@ -35,77 +35,12 @@ export default function Lunabotics() {
                 sandbox='allow-same-origin allow-forms allow-popups allow-scripts allow-presentation'
                 src={'https://youtube.com/embed/1HSG13fAoxk'}>
                 </iframe>
-                {/*<video
-                  width = "750" height = "500" controls>
-                  <source src={project.video} type="video/mp4"/>
-                </video>
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
-                    {project.subtitle}
-                  </h2>
-                  <h1 className="title-font text-lg font-medium text-white mb-3">
-                    {project.title}
-                  </h1>
-                  <p className="leading-relaxed">{project.description}</p>
-                </div>*/}
               </div>
             </a>
           ))}
         </div>
-        {/*<div className="flex flex-wrap mr-0">
-          {luna.map((project) => (
-            <a
-              key={project.video}
-              className="sm:w-1/2 w-100 p-4">
-              <div className="flex relative">
-                <video
-                  width = "750" height = "500" controls>
-                  <source src={project.video} type="video/mp4"/>
-                </video>
-              </div>
-            </a>
-          ))}
-        </div>*/}
-        {/*<div className="flex flex-wrap mr-0">
-          {luna.map((project) => (
-            <a
-              key={project.video}
-              className="sm:w-1/4 w-100 p-2">
-              <div className="flex relative">
-              <iframe className='video'
-              title='Youtube player'
-              sandbox='allow-same-origin allow-forms allow-popups allow-scripts allow-presentation'
-              src={'https://youtube.com/embed/1HSG13fAoxk'}>
-              </iframe>*/}
-             {/*} <iframe
-            width = "200"
-            height = "200"
-            src={`https://youtube.com/embed/$1HSG13fAoxk?autoplay=0`}
-            frameborder = "0"
-            allowFullScreen
-              />
-              </div>
-            </a>
-          ))}
-        </div>*/}
       </div>
     </section>
   );
 }
 
-
-        {/*<div className = "container flex flex-wrap">
-          <div className = "flex-row">
-            <video
-            width = "200" height = "200" controls>
-            <source src={"./Minibot.mov"} type="video/mp4"/>
-            </video>
-            <iframe
-            width = "200"
-            height = "200"
-            src = {"https://youtu.be/1HSG13fAoxk"}
-            frameborder = "0"
-            allowFullScreen
-            />
-          </div>
-        </div>*/}
