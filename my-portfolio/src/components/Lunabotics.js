@@ -23,11 +23,11 @@ export default function Lunabotics() {
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 size-max object-cover object-center"
+                  className="inset-0 size-max object-cover object-center"
                   src={project.image}
                 />
                 <video
-                  width = "750" height = "500" controls>
+                  controls>
                   <source src={project.video} type="video/mp4"/>
                 </video>
                 {/*<video
@@ -47,7 +47,7 @@ export default function Lunabotics() {
             </a>
           ))}
         </div>
-        <div className="flex flex-wrap mr-0">
+        {/*<div className="flex flex-wrap mr-0">
           {luna.map((project) => (
             <a
               key={project.video}
@@ -60,20 +60,25 @@ export default function Lunabotics() {
               </div>
             </a>
           ))}
-        </div>
+        </div>*/}
         <div className="flex flex-wrap mr-0">
           {luna.map((project) => (
             <a
               key={project.video}
               className="sm:w-1/2 w-100 p-4">
               <div className="flex relative">
-              <iframe
+              <iframe className='video'
+              title='Youtube player'
+              sandbox='allow-same-origin allow-forms allow-popups allow-scripts allow-presentation'
+              src={`https://youtube.com/embed/$1HSG13fAoxk?autoplay=0`}>
+              </iframe>
+             {/*} <iframe
             width = "200"
             height = "200"
             src={`https://youtube.com/embed/$1HSG13fAoxk?autoplay=0`}
             frameborder = "0"
             allowFullScreen
-              />
+              />*/}
               </div>
             </a>
           ))}
