@@ -70,7 +70,7 @@ export default function Lunabotics() {
               <iframe className='video'
               title='Youtube player'
               sandbox='allow-same-origin allow-forms allow-popups allow-scripts allow-presentation'
-              src={`https://youtube.com/embed/$1HSG13fAoxk?autoplay=0`}>
+              src={'https://youtube.com/embed/1HSG13fAoxk'}>
               </iframe>
              {/*} <iframe
             width = "200"
