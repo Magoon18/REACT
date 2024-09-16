@@ -17,33 +17,6 @@ export default function Lunabotics() {
         <div className="flex flex-wrap mr-0">
           {luna.map((project) => (
             <a
-              key={project.video}
-              className="sm:w-1/2 w-100 p-4">
-              <div className="flex relative">
-                <video
-                  width = "750" height = "500" controls>
-                  <source src={project.video} type="video/mp4"/>
-                </video>
-                {/*<video
-                  width = "750" height = "500" controls>
-                  <source src={project.video} type="video/mp4"/>
-                </video>
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
-                    {project.subtitle}
-                  </h2>
-                  <h1 className="title-font text-lg font-medium text-white mb-3">
-                    {project.title}
-                  </h1>
-                  <p className="leading-relaxed">{project.description}</p>
-                </div>*/}
-              </div>
-            </a>
-          ))}
-        </div>
-        <div className="flex flex-wrap mr-0">
-          {luna.map((project) => (
-            <a
               key={project.image}
               className="sm:w-1/2 w-100 p-4">
               <div className="flex relative">
@@ -65,6 +38,37 @@ export default function Lunabotics() {
                   </h1>
                   <p className="leading-relaxed">{project.description}</p>
                 </div>*/}
+              </div>
+            </a>
+          ))}
+        </div>
+        <div className="flex flex-wrap mr-0">
+          {luna.map((project) => (
+            <a
+              key={project.video}
+              className="sm:w-1/2 w-100 p-4">
+              <div className="flex relative">
+                <video
+                  width = "750" height = "500" controls>
+                  <source src={project.video} type="video/mp4"/>
+                </video>
+              </div>
+            </a>
+          ))}
+        </div>
+        <div className="flex flex-wrap mr-0">
+          {luna.map((project) => (
+            <a
+              key={project.video}
+              className="sm:w-1/2 w-100 p-4">
+              <div className="flex relative">
+              <iframe
+            width = "200"
+            height = "200"
+            src={`https://youtube.com/embed/$"https://youtu.be/1HSG13fAoxk"?autoplay=0`}
+            frameborder = "0"
+            allowFullScreen
+              />
               </div>
             </a>
           ))}
