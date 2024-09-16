@@ -65,7 +65,7 @@ export default function Lunabotics() {
               <iframe
             width = "200"
             height = "200"
-            src={`https://youtube.com/embed/$"https://youtu.be/1HSG13fAoxk"?autoplay=0`}
+            src={`https://youtube.com/embed/$1HSG13fAoxk?autoplay=0`}
             frameborder = "0"
             allowFullScreen
               />
