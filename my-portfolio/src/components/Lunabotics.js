@@ -19,7 +19,7 @@ export default function Lunabotics() {
             <a
               key1={project.image}
               key2={project.video}
-              className="sm:w-1/3 w-100 p-2">
+              className="sm:w-1/3 w-100 p-4">
               <div className="flex relative">
                 <img
                   alt="gallery"
