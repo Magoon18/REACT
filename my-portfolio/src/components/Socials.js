@@ -39,10 +39,10 @@ export default function Socials() {
               <a className="text-indigo-400 leading-relaxed ml-1">
               Denverdavis1209@gmail.com
               </a>
-              <h2 className="title-font font-semibold text-white tracking-widest text-xl ml-1">
+              {/*<h2 className="title-font font-semibold text-white tracking-widest text-xl ml-1">
                 Phone:
               </h2>
-              <p className="leading-relaxed ml-1">(909)552-4299</p>
+              <p className="leading-relaxed ml-1">(909)552-4299</p>*/}
           </div>
         </div>
         {/* <div className="flex flex-wrap m-4">
