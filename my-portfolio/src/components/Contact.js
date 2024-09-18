@@ -60,10 +60,10 @@ export default function Contact() {
               <a className="text-indigo-400 leading-relaxed">
                 Denverdavis1209@gmail.com
               </a>
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
+              {/*<h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 PHONE
               </h2>
-              <p className="leading-relaxed">(909)552-4299</p>
+              <p className="leading-relaxed">(909)552-4299</p>*/}
             </div>
           </div>
         </div>
