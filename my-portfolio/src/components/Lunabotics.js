@@ -14,12 +14,12 @@ export default function Lunabotics() {
             NASA competition with collaboration with University of Central Florida to develop a rover for moon and/or mars missions.
           </p>
         </div>
-        <div className="flex flex-wrap mr-4">
+        <div className="flex flex-wrap -m-4">
           {luna.map((project) => (
             <a
               key1={project.image}
               key2={project.video}
-              className="sm:w-1/2 w-100 p-1">
+              className="sm:w-1/3 w-100 p-4">
               <div className="flex relative">
                 <img
                   alt="gallery"
