@@ -32,8 +32,8 @@ export default function Lunabotics() {
                 </video>
                 <iframe className='video'
                 title='Youtube player'
-                sandbox='allow-same-origin allow-forms allow-popups allow-scripts allow-presentation'
-                src={'https://youtube.com/embed/1HSG13fAoxk'}>
+                sandbox='allow-same-origin allow-forms allow-scripts allow-presentation'
+                src={'https://youtube.com/embed/1HSG13fAoxk'} allowfullscreen> 
                 </iframe>
               </div>
             </a>
